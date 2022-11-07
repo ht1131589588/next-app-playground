@@ -16,7 +16,7 @@ export default async function Layout({
         <ClickCounter />
       </div>
 
-      <div>{children}</div>
+      <div className="layout-mark">{children}</div>
     </div>
   );
 }
